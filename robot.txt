@@ -1,4 +1,5 @@
 user-agent:*
 Allow:/ 
 Disallow: /apuntes
-Sitemap: https://santi14072024.github.io/sitemaps
+
+
