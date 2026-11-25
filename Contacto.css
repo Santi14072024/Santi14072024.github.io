@@ -1,0 +1,77 @@
+/* Contacto.css */
+/* --- Base: fondo, título, menú y texto --- */
+body{
+    margin: 0;
+    background-color: #171A1D;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    color: #7ed321;
+    font-size: 2.2rem;
+}
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+li{
+    display: inline-block;
+    width: calc(100%/7);
+    padding: 14px 0;
+    font-size: 17px;
+    text-align: center;
+    background-color: #050505;
+    color: #fff;
+}
+li:hover{
+    background-color: #7ed321;
+    color: #000;
+}
+li a{
+    display: block;
+    margin: -14px 0;
+    padding: 14px 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    color: #fff;
+    padding: 0 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+article{
+    background-color: #25292C;
+    border: 2px solid #7ed321;
+    padding: 10px;
+    width: 320px;
+    text-align: center;
+}
+h2{
+    color: #7ed321;
+    text-align: center;
+}
+#formulario{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid #7ed321;
+    padding: 20px;
+}

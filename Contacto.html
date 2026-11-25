@@ -10,8 +10,8 @@
 <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="favicons/android-chrome-512x512.png">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+<link rel="stylesheet" href="Contacto.css">
+    <title>Contactos</title>
 </head>
 <body>
         <header>
@@ -29,5 +29,86 @@
     </ol>
     </nav>
     </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Pedidos</h2>
+                <p>Consulta el estado de tu compra y los plazos de entrega.</p>
+            </article>
+            <article>
+                <h2>Envíos</h2>
+                <p>Envío estándar y exprés a toda España.</p>
+            </article>
+            <article>
+                <h2>Cambios y devoluciones</h2>
+                <p>Tienes 30 días para devolver tu pedido.</p>
+            </article>
+            <article>
+                <h2>Guía de tallas</h2>
+                <p>Encuentra tu talla en ropa y zapatillas.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Email</h2>
+                <p><a href="mailto:info@urbanfit.es">info@urbanfit.es</a></p>
+                <p>Respuesta en 24-48 h laborables</p>
+            </article>
+            <article>
+                <h2>Teléfono</h2>
+                <p><a href="tel:+34600000000">600 000 000</a></p>
+                <p>Lunes a viernes, 9:00 - 18:00</p>
+            </article>
+            <article>
+                <h2>Redes sociales</h2>
+                <p><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a> ·
+                   <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a> ·
+                   <a href="https://x.com" target="_blank" rel="noopener">X</a></p>
+                <p>Escríbenos por mensaje directo</p>
+            </article>
+        </section>
+
+        <section id="formulario">
+            <h2>¿Aún necesitas ayuda? Escríbenos</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contacto</legend>
+
+                    <label for="nombre">Nombre *</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" name="email" id="email" placeholder="tucorreo@ejemplo.com">
+
+                    <label for="motivo">Motivo *</label>
+                    <select name="motivo" id="motivo" required>
+                        <option value="">Selecciona</option>
+                        <option value="pedido">Estado de mi pedido</option>
+                        <option value="envio">Envíos</option>
+                        <option value="devolucion">Cambios y devoluciones</option>
+                        <option value="talla">Tallas y producto</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <label for="pedido">Número de pedido (si lo tienes)</label>
+                    <input type="text" name="pedido" id="pedido" placeholder="Ej: UF-12345">
+
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea name="mensaje" id="mensaje" rows="6" maxlength="1000" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 UrbanFit</p>
+    </footer>
 </body>
 </html>
+
